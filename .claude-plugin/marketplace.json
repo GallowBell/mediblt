@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "mediblt",
+  "description": "My everydays is be like this: small Claude Code skills I actually use every day.",
+  "owner": {
+    "name": "GallowBell",
+    "url": "https://github.com/GallowBell"
+  },
+  "plugins": [
+    {
+      "name": "commit-msg",
+      "description": "Write a Conventional Commit message from your staged git diff.",
+      "source": "./plugins/commit-msg",
+      "category": "productivity"
+    }
+  ]
+}
